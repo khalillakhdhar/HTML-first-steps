@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            form.form-example {
+                display: table;
+            }
+            div.form-example {
+                display: table-row;
+            }
+            label,
+            input {
+                display: table-cell;
+                margin-bottom: 10px;
+            }
+            label {
+                padding-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#"  class="form-example">
+            <div class="form-example">
+                <label for="name">Enter your name:
+                </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-example">
+                <label for="name">test:
+                </label>
+                <input type="password" name="name" id="name" required>
+            </div>
+            <div class="form-example">
+                <label for="email">Enter your email:
+                </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+                <label for="gender">gender:
+                </label>
+                <input type="radio" name="g" value="male">male<br>
+                <input type="radio" name="g" value="female">female<br>
+            </div>
+            <div class="form-example">
+                <label for="cycle">cycle:
+                </label>
+                <input type="checkbox" name="c" value="license">license<br>
+                <input type="checkbox" name="c" value="master">master<br>
+                <input type="checkbox" name="c" value="doctor">Doctor<br>
+            </div>
+            <div class="form-example">
+                <input type="submit" value="Subscribe!">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </body>
+</html>
